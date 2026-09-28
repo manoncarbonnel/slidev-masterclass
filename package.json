@@ -2,6 +2,8 @@
   "name": "slidev-masterclass",
   "type": "module",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Manon Carbonnel",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",

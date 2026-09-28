@@ -34,6 +34,8 @@ Astuce : cette présentation est elle-même écrite avec Slidev. Tout ce que vou
 
 ---
 layout: intro
+portrait: /manon.webp
+portraitAlt: Portrait de Manon Carbonnel
 ---
 
 **Je suis Manon Carbonnel**
