@@ -25,17 +25,14 @@ jobs:
         with:
           node-version: 'lts/*'
 
-      - name: Setup @antfu/ni
-        run: npm i -g @antfu/ni
-
       # Chromium ne sert qu'à l'export PDF, inutile pour le build web.
       - name: Install dependencies
-        run: nci
+        run: npm ci
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
 
       - name: Build
-        run: nr build --base /${{github.event.repository.name}}/
+        run: npm run build -- --base /${{github.event.repository.name}}/
 
       # Les liens directs vers une slide (/12) retombent sur l'application.
       - name: SPA fallback
