@@ -1098,8 +1098,13 @@ layout: end
 
 **Des questions ?**
 
+- manon.carbonnel@yeeso.org
+- [LinkedIn : Manon Carbonnel](https://www.linkedin.com/in/manon-carbonnel/)
+- [Linktree : manoncarbonnel](https://linktr.ee/manoncarbonnel)
+
+**Pour aller plus loin**
+
 - [Documentation de Slidev](https://sli.dev)
-- [Code source de Slidev](https://github.com/slidevjs/slidev)
 - [Thème yeeso pour Slidev](https://github.com/Yeeso-fr/slidev-theme-yeeso)
 
 <!--
